@@ -1,0 +1,10 @@
+---
+- hosts: logservers
+  roles:
+    - monit
+    - nginx
+    - java
+    - supervisor
+    - elasticsearch
+    - logstash
+    - kibana
